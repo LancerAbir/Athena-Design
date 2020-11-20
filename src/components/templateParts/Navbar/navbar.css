@@ -1,0 +1,110 @@
+/* Common CSS button */
+.theme-btn {
+   border: 0px solid #1c6ea4;
+   border-radius: 25px 0px 20px 0px;
+   width: 135px;
+   height: 45px;
+   background: linear-gradient(153deg, #1cd8ba 12%, #07acec);
+   color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+   transition: 0.3s;
+   padding-top: 6px;
+   margin-top: -4px;
+}
+.theme-btn:hover {
+   background: linear-gradient(153deg, #07acec, #1cd8ba);
+   color: #000 !important;
+}
+
+/* Navbar */
+.theme-navbar {
+   padding: 30px 0;
+   position: relative;
+}
+.logo img {
+   width: 122px;
+   height: 85px;
+}
+li.nav-item.active a {
+   font-weight: 600;
+}
+nav.navbar ul li a {
+   font-size: 14px;
+   transition: 0.3s;
+   display: block;
+   color: #263f44;
+}
+
+nav.navbar ul li {
+   display: inline-block;
+   padding-right: 10px;
+   transition: 0.3s;
+}
+
+nav.navbar ul li:hover a {
+   font-weight: 600;
+}
+.navbar-collapse ul {
+   text-align: center;
+}
+
+.navbar-light .navbar-toggler-icon {
+   display: block;
+   background-image: none;
+}
+
+.blue-bg img {
+   position: absolute;
+   left: -221px;
+   top: -234px;
+   width: 425px;
+   height: auto;
+   overflow: hidden;
+   animation: bounceAround 8s ease-in-out infinite;
+}
+
+.dot-bg img {
+   position: absolute;
+   overflow: hidden;
+   left: 25%;
+   top: -25px;
+   width: 110px;
+   height: auto;
+}
+.logo {
+   position: relative;
+}
+.logo:after {
+   position: absolute;
+   content: "";
+   width: 10px;
+   height: 10px;
+   bottom: -20px;
+   left: 15px;
+   border-radius: 50px;
+   box-shadow: 0 0 30px 10px #b59ff7;
+   border-radius: 50px;
+   background: rgba(181, 159, 247, 0.5568627450980392);
+   animation: buleRing 1s infinite alternate;
+}
+/* Animation */
+@keyframes buleRing {
+   0% {
+      box-shadow: 0 0 10px 2px #b59ff7;
+      transform: scale(1);
+   }
+   100% {
+      box-shadow: 0 0 30px 10px #b59ff7;
+      transform: scale(1.2);
+   }
+}
+
+@keyframes bounceAround {
+   0% {
+      transform: translateY(0);
+   }
+   100% {
+      transform: translateY(-0px) rotate(360deg);
+   }
+}
