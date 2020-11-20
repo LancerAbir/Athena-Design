@@ -3,10 +3,10 @@ import React from "react";
 const SingleService = (props) => {
    const { img, title, des } = props.service;
    return (
-      <div className="col-md-3">
+      <div className="col-12 col-sm-6 col-md-3">
          <div className="box text-center">
             <img src={img} alt="" />
-            <h3 className="section-title">{title}</h3>
+            <h5>{title}</h5>
             <p>{des}</p>
          </div>
       </div>

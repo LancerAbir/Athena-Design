@@ -1,0 +1,13 @@
+.project {
+   margin-bottom: 200px;
+}
+.project-image img {
+   width: 580px;
+   height: auto;
+}
+.common h2 {
+   margin-bottom: 15px;
+}
+.common p {
+   margin-bottom: 40px;
+}

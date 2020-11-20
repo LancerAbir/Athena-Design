@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./service.css";
 //** Image */
 import service1 from "../../../images/Group 65@2x.png";
 import service2 from "../../../images/Group 66@2x.png";
@@ -34,11 +35,18 @@ const Service = () => {
       },
    ]);
    return (
-      <div>
+      <section className="service">
          <div className="container">
             <div className="row">
                <div className="col-12 col-sm-12 col-md-12">
-                  <h2>What we do</h2>
+                  <div className="section-content text-center">
+                     <h2>What we do</h2>
+                     <p>
+                        Our main focus is to make the User Experience very
+                        <br />
+                        simple and easy. Simplicity is our Strength
+                     </p>
+                  </div>
                </div>
             </div>
             <div className="row">
@@ -47,7 +55,7 @@ const Service = () => {
                ))}
             </div>
          </div>
-      </div>
+      </section>
    );
 };
 

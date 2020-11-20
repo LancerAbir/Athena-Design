@@ -1,0 +1,37 @@
+/* Service CSS */
+section.service {
+   margin-bottom: 120px;
+}
+.section-content {
+   margin-bottom: 60px;
+}
+.box img {
+   width: 80px;
+   height: auto;
+   margin-bottom: 30px;
+}
+.box h5 {
+   font-size: 19px;
+   color: #34285c;
+   margin-bottom: 13px;
+   font-weight: 600;
+}
+.box {
+   position: relative;
+   padding: 36px;
+   transition: 0.4s;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   font-size: 12px;
+   width: 256px;
+   line-height: 24px;
+}
+
+.box:hover {
+   position: absolute;
+   border: 0px solid #1c6ea4;
+   border-radius: 40px 0px 40px 0px;
+   background-color: #fff;
+   width: 256px;
+   box-shadow: 0 11px 24px -12px #1c6ea4;
+}
